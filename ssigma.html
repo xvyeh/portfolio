@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jacob's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <ul class="navbar-menu">
+      <li class="navbar-item"><a href="#home" class="navbar-link">Home</a></li>
+      <li class="navbar-item"><a href="#about" class="navbar-link">About me</a></li>
+      <li class="navbar-item"><a href="#skills" class="navbar-link">Skills</a></li>
+      <li class="navbar-item"><a href="#projects" class="navbar-link">Projects</a></li>
+      <li class="navbar-item"><a href="#contact" class="navbar-link">Contact</a></li>
+    </ul>
+  </nav>
+  <section id="home" class="intro">
+    <h1 class="intro-title">I'm Jacob and i'm currently studying programming</h1>
+    <p class="intro-subtitle">use navbar to get around instead of scrolling🤑🤑🤑🤑</p>
+    <a href="https://www.figma.com/file/WwqR854KMdC0ARMlXIhEwB/sigmaaa?type=design&node-id=0-1&mode=design" class="intro-button">CV</a>
+  </section>
+  <section id="about" class="page">
+    <nav class="navbar">
+      <ul class="navbar-menu">
+        <li class="navbar-item"><a href="#home" class="navbar-link">Home</a></li>
+        <li class="navbar-item"><a href="#about" class="navbar-link">About me</a></li>
+        <li class="navbar-item"><a href="#skills" class="navbar-link">Skills</a></li>
+        <li class="navbar-item"><a href="#projects" class="navbar-link">Projects</a></li>
+        <li class="navbar-item"><a href="#contact" class="navbar-link">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="page-content">
+      <h1 class="page-title">About me</h1>
+      <p class="page-subtitle">16-year-old Polish programming enthusiast with dreams as big as his code. Forging backend magic while dreaming of bytes and bytes. When not debugging, you'll find him lost in a world of music, and unraveling the mysteries of the universe-one line of code at a time.</p>
+    </div>
+  </section>
+  <section id="skills" class="page">
+    <nav class="navbar">
+      <ul class="navbar-menu">
+        <li class="navbar-item"><a href="#home" class="navbar-link">Home</a></li>
+        <li class="navbar-item"><a href="#about" class="navbar-link">About me</a></li>
+        <li class="navbar-item"><a href="#skills" class="navbar-link">Skills</a></li>
+        <li class="navbar-item"><a href="#projects" class="navbar-link">Projects</a></li>
+        <li class="navbar-item"><a href="#contact" class="navbar-link">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="page-content">
+      <h1 class="page-title">Skills</h1>
+      <p class="page-subtitle"><img src="skyllss.png"></p>
+    </div>
+  </section>
+  <section id="projects" class="page">
+    <nav class="navbar">
+      <ul class="navbar-menu">
+        <li class="navbar-item"><a href="#home" class="navbar-link">Home</a></li>
+        <li class="navbar-item"><a href="#about" class="navbar-link">About me</a></li>
+        <li class="navbar-item"><a href="#skills" class="navbar-link">Skills</a></li>
+        <li class="navbar-item"><a href="#projects" class="navbar-link">Projects</a></li>
+        <li class="navbar-item"><a href="#contact" class="navbar-link">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="page-content">
+      <h1 class="page-title">Projects</h1>
+      <p class="page-subtitle"><img src="projcts.png"></p>
+    </div>
+  </section>
+  <section id="contact" class="page">
+    <nav class="navbar">
+      <ul class="navbar-menu">
+        <li class="navbar-item"><a href="#home" class="navbar-link">Home</a></li>
+        <li class="navbar-item"><a href="#about" class="navbar-link">About me</a></li>
+        <li class="navbar-item"><a href="#skills" class="navbar-link">Skills</a></li>
+        <li class="navbar-item"><a href="#projects" class="navbar-link">Projects</a></li>
+        <li class="navbar-item"><a href="#contact" class="navbar-link">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="page-content">
+      <h1 class="page-title">Contact</h1>
+      <p class="page-subtitle"> <h1>Get In Touch 🤑</h1><form id="contact-form">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message"></textarea><br>
+        <input type="button" value="Send" onclick="clearForm()">
+      </form></p>
+    </div>
+  </section>
+  <footer class="footer">
+    <p class="footer-text">Made by Jacob</p>
+  </footer>
+  <script>
+    function clearForm() {
+  document.getElementById("contact-form").reset();
+}
+  </script>
+</body>
+</html>
